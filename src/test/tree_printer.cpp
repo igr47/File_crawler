@@ -6,6 +6,14 @@
 
 namespace fs = std::filesystem;
 
+// ANSI color codes
+namespace color {
+    const std::string reset = "\033[0m";
+    const std::string line = "\033[90m";       // gray for tree lines
+    const std::string dir = "\033[36m\033[3m"; // cyan + italics for directories
+    const std::string filename = "\033[38;5;116m"; // file names light teal
+}
+
 class DirectoryTreePrinter {
 private:
     // Helper function to check if a directory entry should be ignored
@@ -22,20 +30,21 @@ private:
 
     // Function to print the tree structure
     void printTree(const fs::path& path, const std::string& prefix, bool isLast) {
-        std::cout << prefix;
+        // Print prefix with line color
+        std::cout << color::line << prefix << color::reset;
 
         if (isLast) {
-            std::cout << "└─── ";
+            std::cout << color::line << "└─── " << color::reset;
         } else {
-            std::cout << "├─── ";
+            std::cout << color::line << "├─── " << color::reset;
         }
 
-        std::cout << path.filename().string();
-
+        // Print name: directory with color/italics, files without
         if (fs::is_directory(path)) {
+            std::cout << color::dir << path.filename().string() << color::reset;
             std::cout << "-|" << std::endl;
         } else {
-            std::cout << std::endl;
+            std::cout << color::filename << path.filename().string() << color::reset << std::endl;
         }
 
         if (fs::is_directory(path)) {
@@ -87,8 +96,8 @@ public:
             return;
         }
 
-        // Print the root directory name
-        std::cout << startPath.filename().string() << "-|" << std::endl;
+        // Print the root directory name with color
+        std::cout << color::dir << startPath.filename().string() << color::reset << "-|" << std::endl;
 
         std::vector<fs::path> entries;
 
