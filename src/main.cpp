@@ -1,5 +1,6 @@
 #include "crawler.h"
 #include <iostream>
+#include <filesystem>
 
 int main(int argc, char* argv[]) {
     DirectoryTreePrinter printer;
@@ -10,16 +11,17 @@ int main(int argc, char* argv[]) {
             fs::path startPath = argv[1];
             printer.printStructure(startPath);
         } else {
-            // Otherwise use current working directory
+            // Otherwise, use current working directory
             printer.printStructure();
         }
-    } catch (const std::filesystem_error& e) {
+    } catch (const fs::filesystem_error& e) {
         std::cerr << "Filesystem error: " << e.what() << std::endl;
         return 1;
     } catch (const std::exception& e) {
-        std::cerr "Error: " << e.what() << std::endl;
+        std::cerr << "Error: " << e.what() << std::endl;
         return 1;
     }
 
     return 0;
 }
+

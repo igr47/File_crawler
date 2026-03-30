@@ -1,0 +1,1 @@
+/usr/bin/clang++ -Xlinker --dependency-file=CMakeFiles/file_crawler.dir/link.d CMakeFiles/file_crawler.dir/src/crawler.cpp.o CMakeFiles/file_crawler.dir/src/main.cpp.o -o bin/file_crawler-1.0.0
