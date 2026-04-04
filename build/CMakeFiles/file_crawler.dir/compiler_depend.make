@@ -28,6 +28,7 @@ CMakeFiles/file_crawler.dir/src/crawler.cpp.o: /home/igris/git_projects/File_cra
   /usr/include/stdint.h \
   /usr/include/stdio.h \
   /usr/include/stdlib.h \
+  /usr/include/tbb/tbb.h \
   /usr/include/time.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
@@ -104,12 +105,16 @@ CMakeFiles/file_crawler.dir/src/crawler.cpp.o: /home/igris/git_projects/File_cra
   /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
   /usr/include/x86_64-linux-gnu/sys/types.h \
   /usr/include/c++/15/algorithm \
+  /usr/include/c++/15/backward/auto_ptr.h \
   /usr/include/c++/15/backward/binders.h \
   /usr/include/c++/15/bit \
   /usr/include/c++/15/bits/algorithmfwd.h \
+  /usr/include/c++/15/bits/align.h \
   /usr/include/c++/15/bits/alloc_traits.h \
   /usr/include/c++/15/bits/allocated_ptr.h \
   /usr/include/c++/15/bits/allocator.h \
+  /usr/include/c++/15/bits/atomic_base.h \
+  /usr/include/c++/15/bits/atomic_lockfree_defines.h \
   /usr/include/c++/15/bits/basic_ios.h \
   /usr/include/c++/15/bits/basic_ios.tcc \
   /usr/include/c++/15/bits/basic_string.h \
@@ -122,6 +127,7 @@ CMakeFiles/file_crawler.dir/src/crawler.cpp.o: /home/igris/git_projects/File_cra
   /usr/include/c++/15/bits/cpp_type_traits.h \
   /usr/include/c++/15/bits/cxxabi_forced.h \
   /usr/include/c++/15/bits/cxxabi_init_exception.h \
+  /usr/include/c++/15/bits/erase_if.h \
   /usr/include/c++/15/bits/exception.h \
   /usr/include/c++/15/bits/exception_defines.h \
   /usr/include/c++/15/bits/exception_ptr.h \
@@ -148,6 +154,7 @@ CMakeFiles/file_crawler.dir/src/crawler.cpp.o: /home/igris/git_projects/File_cra
   /usr/include/c++/15/bits/move.h \
   /usr/include/c++/15/bits/nested_exception.h \
   /usr/include/c++/15/bits/new_allocator.h \
+  /usr/include/c++/15/bits/node_handle.h \
   /usr/include/c++/15/bits/ostream.h \
   /usr/include/c++/15/bits/ostream.tcc \
   /usr/include/c++/15/bits/ostream_insert.h \
@@ -160,6 +167,7 @@ CMakeFiles/file_crawler.dir/src/crawler.cpp.o: /home/igris/git_projects/File_cra
   /usr/include/c++/15/bits/refwrap.h \
   /usr/include/c++/15/bits/requires_hosted.h \
   /usr/include/c++/15/bits/shared_ptr.h \
+  /usr/include/c++/15/bits/shared_ptr_atomic.h \
   /usr/include/c++/15/bits/shared_ptr_base.h \
   /usr/include/c++/15/bits/sstream.tcc \
   /usr/include/c++/15/bits/std_abs.h \
@@ -172,8 +180,12 @@ CMakeFiles/file_crawler.dir/src/crawler.cpp.o: /home/igris/git_projects/File_cra
   /usr/include/c++/15/bits/stl_iterator.h \
   /usr/include/c++/15/bits/stl_iterator_base_funcs.h \
   /usr/include/c++/15/bits/stl_iterator_base_types.h \
+  /usr/include/c++/15/bits/stl_map.h \
+  /usr/include/c++/15/bits/stl_multimap.h \
   /usr/include/c++/15/bits/stl_pair.h \
+  /usr/include/c++/15/bits/stl_raw_storage_iter.h \
   /usr/include/c++/15/bits/stl_tempbuf.h \
+  /usr/include/c++/15/bits/stl_tree.h \
   /usr/include/c++/15/bits/stl_uninitialized.h \
   /usr/include/c++/15/bits/stl_vector.h \
   /usr/include/c++/15/bits/streambuf.tcc \
@@ -218,10 +230,13 @@ CMakeFiles/file_crawler.dir/src/crawler.cpp.o: /home/igris/git_projects/File_cra
   /usr/include/c++/15/istream \
   /usr/include/c++/15/limits \
   /usr/include/c++/15/locale \
+  /usr/include/c++/15/map \
+  /usr/include/c++/15/memory \
   /usr/include/c++/15/new \
   /usr/include/c++/15/ostream \
   /usr/include/c++/15/pstl/execution_defs.h \
   /usr/include/c++/15/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/15/pstl/glue_memory_defs.h \
   /usr/include/c++/15/pstl/pstl_config.h \
   /usr/include/c++/15/ratio \
   /usr/include/c++/15/sstream \
@@ -256,6 +271,7 @@ CMakeFiles/file_crawler.dir/src/crawler.cpp.o: /home/igris/git_projects/File_cra
   /usr/lib/llvm-19/lib/clang/19/include/__stddef_ptrdiff_t.h \
   /usr/lib/llvm-19/lib/clang/19/include/__stddef_size_t.h \
   /usr/lib/llvm-19/lib/clang/19/include/__stddef_wchar_t.h \
+  /usr/lib/llvm-19/lib/clang/19/include/sanitizer/tsan_interface.h \
   /usr/lib/llvm-19/lib/clang/19/include/stdarg.h \
   /usr/lib/llvm-19/lib/clang/19/include/stddef.h \
   /usr/lib/llvm-19/lib/clang/19/include/stdint.h
@@ -287,6 +303,9 @@ CMakeFiles/file_crawler.dir/src/main.cpp.o: /home/igris/git_projects/File_crawle
   /usr/include/stdint.h \
   /usr/include/stdio.h \
   /usr/include/stdlib.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/include/tbb/tbb.h \
   /usr/include/time.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
@@ -363,12 +382,16 @@ CMakeFiles/file_crawler.dir/src/main.cpp.o: /home/igris/git_projects/File_crawle
   /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
   /usr/include/x86_64-linux-gnu/sys/types.h \
   /usr/include/c++/15/algorithm \
+  /usr/include/c++/15/backward/auto_ptr.h \
   /usr/include/c++/15/backward/binders.h \
   /usr/include/c++/15/bit \
   /usr/include/c++/15/bits/algorithmfwd.h \
+  /usr/include/c++/15/bits/align.h \
   /usr/include/c++/15/bits/alloc_traits.h \
   /usr/include/c++/15/bits/allocated_ptr.h \
   /usr/include/c++/15/bits/allocator.h \
+  /usr/include/c++/15/bits/atomic_base.h \
+  /usr/include/c++/15/bits/atomic_lockfree_defines.h \
   /usr/include/c++/15/bits/basic_ios.h \
   /usr/include/c++/15/bits/basic_ios.tcc \
   /usr/include/c++/15/bits/basic_string.h \
@@ -381,6 +404,7 @@ CMakeFiles/file_crawler.dir/src/main.cpp.o: /home/igris/git_projects/File_crawle
   /usr/include/c++/15/bits/cpp_type_traits.h \
   /usr/include/c++/15/bits/cxxabi_forced.h \
   /usr/include/c++/15/bits/cxxabi_init_exception.h \
+  /usr/include/c++/15/bits/erase_if.h \
   /usr/include/c++/15/bits/exception.h \
   /usr/include/c++/15/bits/exception_defines.h \
   /usr/include/c++/15/bits/exception_ptr.h \
@@ -407,6 +431,7 @@ CMakeFiles/file_crawler.dir/src/main.cpp.o: /home/igris/git_projects/File_crawle
   /usr/include/c++/15/bits/move.h \
   /usr/include/c++/15/bits/nested_exception.h \
   /usr/include/c++/15/bits/new_allocator.h \
+  /usr/include/c++/15/bits/node_handle.h \
   /usr/include/c++/15/bits/ostream.h \
   /usr/include/c++/15/bits/ostream.tcc \
   /usr/include/c++/15/bits/ostream_insert.h \
@@ -419,6 +444,7 @@ CMakeFiles/file_crawler.dir/src/main.cpp.o: /home/igris/git_projects/File_crawle
   /usr/include/c++/15/bits/refwrap.h \
   /usr/include/c++/15/bits/requires_hosted.h \
   /usr/include/c++/15/bits/shared_ptr.h \
+  /usr/include/c++/15/bits/shared_ptr_atomic.h \
   /usr/include/c++/15/bits/shared_ptr_base.h \
   /usr/include/c++/15/bits/sstream.tcc \
   /usr/include/c++/15/bits/std_abs.h \
@@ -431,8 +457,12 @@ CMakeFiles/file_crawler.dir/src/main.cpp.o: /home/igris/git_projects/File_crawle
   /usr/include/c++/15/bits/stl_iterator.h \
   /usr/include/c++/15/bits/stl_iterator_base_funcs.h \
   /usr/include/c++/15/bits/stl_iterator_base_types.h \
+  /usr/include/c++/15/bits/stl_map.h \
+  /usr/include/c++/15/bits/stl_multimap.h \
   /usr/include/c++/15/bits/stl_pair.h \
+  /usr/include/c++/15/bits/stl_raw_storage_iter.h \
   /usr/include/c++/15/bits/stl_tempbuf.h \
+  /usr/include/c++/15/bits/stl_tree.h \
   /usr/include/c++/15/bits/stl_uninitialized.h \
   /usr/include/c++/15/bits/stl_vector.h \
   /usr/include/c++/15/bits/streambuf.tcc \
@@ -455,6 +485,7 @@ CMakeFiles/file_crawler.dir/src/main.cpp.o: /home/igris/git_projects/File_crawle
   /usr/include/c++/15/cstdint \
   /usr/include/c++/15/cstdio \
   /usr/include/c++/15/cstdlib \
+  /usr/include/c++/15/cstring \
   /usr/include/c++/15/ctime \
   /usr/include/c++/15/cwchar \
   /usr/include/c++/15/cwctype \
@@ -477,10 +508,13 @@ CMakeFiles/file_crawler.dir/src/main.cpp.o: /home/igris/git_projects/File_crawle
   /usr/include/c++/15/istream \
   /usr/include/c++/15/limits \
   /usr/include/c++/15/locale \
+  /usr/include/c++/15/map \
+  /usr/include/c++/15/memory \
   /usr/include/c++/15/new \
   /usr/include/c++/15/ostream \
   /usr/include/c++/15/pstl/execution_defs.h \
   /usr/include/c++/15/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/15/pstl/glue_memory_defs.h \
   /usr/include/c++/15/pstl/pstl_config.h \
   /usr/include/c++/15/ratio \
   /usr/include/c++/15/sstream \
@@ -515,62 +549,112 @@ CMakeFiles/file_crawler.dir/src/main.cpp.o: /home/igris/git_projects/File_crawle
   /usr/lib/llvm-19/lib/clang/19/include/__stddef_ptrdiff_t.h \
   /usr/lib/llvm-19/lib/clang/19/include/__stddef_size_t.h \
   /usr/lib/llvm-19/lib/clang/19/include/__stddef_wchar_t.h \
+  /usr/lib/llvm-19/lib/clang/19/include/sanitizer/tsan_interface.h \
   /usr/lib/llvm-19/lib/clang/19/include/stdarg.h \
   /usr/lib/llvm-19/lib/clang/19/include/stddef.h \
   /usr/lib/llvm-19/lib/clang/19/include/stdint.h
 
+bin/file_crawler: /lib/x86_64-linux-gnu/Scrt1.o \
+  /lib/x86_64-linux-gnu/crti.o \
+  /lib/x86_64-linux-gnu/crtn.o \
+  /lib/x86_64-linux-gnu/libc.so \
+  /lib/x86_64-linux-gnu/libc.so.6 \
+  /lib/x86_64-linux-gnu/libgcc_s.so.1 \
+  /lib/x86_64-linux-gnu/libm.so \
+  /lib/x86_64-linux-gnu/libm.so.6 \
+  /lib/x86_64-linux-gnu/libmvec.so.1 \
+  /lib64/ld-linux-x86-64.so.2 \
+  /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o \
+  /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o \
+  /usr/lib/gcc/x86_64-linux-gnu/15/libgcc.a \
+  /usr/lib/gcc/x86_64-linux-gnu/15/libgcc_s.so \
+  /usr/lib/gcc/x86_64-linux-gnu/15/libstdc++.so \
+  /usr/lib/x86_64-linux-gnu/libc_nonshared.a \
+  CMakeFiles/file_crawler.dir/src/crawler.cpp.o \
+  CMakeFiles/file_crawler.dir/src/main.cpp.o
+
+
+CMakeFiles/file_crawler.dir/src/main.cpp.o:
+
+CMakeFiles/file_crawler.dir/src/crawler.cpp.o:
+
+/usr/lib/x86_64-linux-gnu/libc_nonshared.a:
+
+/usr/lib/gcc/x86_64-linux-gnu/15/libgcc.a:
+
+/usr/lib/gcc/x86_64-linux-gnu/15/libstdc++.so:
+
+/lib64/ld-linux-x86-64.so.2:
+
+/lib/x86_64-linux-gnu/crti.o:
+
+/usr/include/string.h:
 
 /usr/lib/llvm-19/lib/clang/19/include/stdint.h:
 
-/usr/include/c++/15/bits/fs_ops.h:
+/usr/lib/llvm-19/lib/clang/19/include/sanitizer/tsan_interface.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
+/usr/lib/llvm-19/lib/clang/19/include/__stddef_size_t.h:
 
-/usr/include/x86_64-linux-gnu/asm/errno.h:
+/usr/lib/llvm-19/lib/clang/19/include/__stddef_offsetof.h:
 
-/usr/include/c++/15/bits/predefined_ops.h:
+/usr/lib/llvm-19/lib/clang/19/include/__stddef_null.h:
 
-/usr/include/c++/15/bits/cxxabi_forced.h:
+/usr/lib/llvm-19/lib/clang/19/include/__stddef_header_macro.h:
+
+/usr/lib/llvm-19/lib/clang/19/include/__stdarg___gnuc_va_list.h:
+
+/usr/include/x86_64-linux-gnu/c++/15/bits/messages_members.h:
+
+/usr/include/x86_64-linux-gnu/c++/15/bits/gthr.h:
 
 /usr/include/x86_64-linux-gnu/sys/types.h:
 
+/lib/x86_64-linux-gnu/libm.so.6:
+
 /usr/include/c++/15/bits/char_traits.h:
 
-/usr/include/c++/15/bits/alloc_traits.h:
+/usr/include/c++/15/bits/cxxabi_forced.h:
 
-/usr/include/c++/15/bits/range_access.h:
+/usr/include/c++/15/map:
 
-/usr/include/c++/15/bits/stl_iterator_base_types.h:
-
-/usr/include/c++/15/initializer_list:
-
-/usr/include/x86_64-linux-gnu/sys/select.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
-
-/usr/include/x86_64-linux-gnu/bits/wordsize.h:
-
-/usr/include/c++/15/pstl/execution_defs.h:
-
-/usr/include/x86_64-linux-gnu/bits/wchar.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
+/usr/include/c++/15/bits/atomic_lockfree_defines.h:
 
 /usr/include/x86_64-linux-gnu/bits/waitstatus.h:
 
 /usr/include/c++/15/bits/memory_resource.h:
 
+/usr/include/c++/15/bits/atomic_base.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
+
+/usr/include/c++/15/bits/alloc_traits.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o:
+
+/usr/include/c++/15/bits/range_access.h:
+
+/usr/include/c++/15/bits/stl_iterator_base_types.h:
+
+/usr/include/x86_64-linux-gnu/sys/select.h:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/c++/15/pstl/execution_defs.h:
+
 /usr/include/x86_64-linux-gnu/bits/waitflags.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
 
 /usr/include/x86_64-linux-gnu/sys/cdefs.h:
 
 /usr/include/c++/15/system_error:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
+
+/usr/include/x86_64-linux-gnu/asm/errno.h:
+
+/usr/include/c++/15/bits/fs_ops.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
 
@@ -600,13 +684,17 @@ CMakeFiles/file_crawler.dir/src/main.cpp.o: /home/igris/git_projects/File_crawle
 
 /usr/include/pthread.h:
 
-/usr/lib/llvm-19/lib/clang/19/include/__stddef_offsetof.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
+
+/usr/include/c++/15/bits/predefined_ops.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
 
@@ -622,27 +710,45 @@ CMakeFiles/file_crawler.dir/src/main.cpp.o: /home/igris/git_projects/File_crawle
 
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
 
+/usr/include/c++/15/bits/cxxabi_init_exception.h:
+
 /usr/include/x86_64-linux-gnu/bits/setjmp.h:
 
 /usr/include/time.h:
 
-/usr/include/sched.h:
-
-/usr/include/wctype.h:
-
 /usr/include/x86_64-linux-gnu/bits/errno.h:
 
 /usr/include/c++/15/bits/ostream_insert.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+
+/usr/lib/llvm-19/lib/clang/19/include/__stddef_nullptr_t.h:
+
+/usr/include/c++/15/cstdio:
+
+/usr/include/tbb/tbb.h:
+
+/usr/include/x86_64-linux-gnu/asm/posix_types.h:
+
+/usr/include/c++/15/bits/postypes.h:
+
+/usr/include/c++/15/cstring:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+
+/usr/include/c++/15/bits/align.h:
+
+/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 
 /usr/include/c++/15/bits/streambuf_iterator.h:
 
 /usr/include/stdio.h:
-
-/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
 
 /usr/include/ctype.h:
 
@@ -658,6 +764,8 @@ CMakeFiles/file_crawler.dir/src/main.cpp.o: /home/igris/git_projects/File_crawle
 
 /usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
 
+/lib/x86_64-linux-gnu/libmvec.so.1:
+
 /usr/include/stdlib.h:
 
 /usr/include/c++/15/bits/chrono.h:
@@ -672,11 +780,7 @@ CMakeFiles/file_crawler.dir/src/main.cpp.o: /home/igris/git_projects/File_crawle
 
 /usr/include/features.h:
 
-/usr/include/c++/15/bits/fs_fwd.h:
-
-/usr/include/c++/15/cstddef:
-
-/usr/include/errno.h:
+/lib/x86_64-linux-gnu/crtn.o:
 
 /home/igris/git_projects/File_crawler/src/crawler.cpp:
 
@@ -688,8 +792,6 @@ CMakeFiles/file_crawler.dir/src/main.cpp.o: /home/igris/git_projects/File_crawle
 
 /usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 
-/usr/lib/llvm-19/lib/clang/19/include/__stddef_size_t.h:
-
 /usr/include/linux/types.h:
 
 /usr/include/c++/15/ext/alloc_traits.h:
@@ -697,6 +799,8 @@ CMakeFiles/file_crawler.dir/src/main.cpp.o: /home/igris/git_projects/File_crawle
 /usr/include/c++/15/bits/invoke.h:
 
 /home/igris/git_projects/File_crawler/include/crawler.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
@@ -707,6 +811,10 @@ CMakeFiles/file_crawler.dir/src/main.cpp.o: /home/igris/git_projects/File_crawle
 /usr/include/c++/15/bits/memoryfwd.h:
 
 /usr/include/alloca.h:
+
+/usr/lib/llvm-19/lib/clang/19/include/__stddef_max_align_t.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
 
 /usr/include/x86_64-linux-gnu/bits/endian.h:
 
@@ -726,6 +834,14 @@ CMakeFiles/file_crawler.dir/src/main.cpp.o: /home/igris/git_projects/File_crawle
 
 /usr/include/asm-generic/posix_types.h:
 
+/usr/lib/llvm-19/lib/clang/19/include/__stddef_ptrdiff_t.h:
+
+/usr/include/stdc-predef.h:
+
+/usr/include/wctype.h:
+
+/usr/include/sched.h:
+
 /usr/include/c++/15/ext/aligned_buffer.h:
 
 /usr/include/asm-generic/errno.h:
@@ -744,17 +860,7 @@ CMakeFiles/file_crawler.dir/src/main.cpp.o: /home/igris/git_projects/File_crawle
 
 /usr/include/endian.h:
 
-/usr/include/c++/15/bits/locale_classes.h:
-
-/usr/include/linux/stddef.h:
-
 /usr/include/linux/posix_types.h:
-
-/usr/include/x86_64-linux-gnu/asm/posix_types.h:
-
-/usr/include/c++/15/bits/postypes.h:
-
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
 
 /usr/include/x86_64-linux-gnu/asm/posix_types_64.h:
 
@@ -765,8 +871,6 @@ CMakeFiles/file_crawler.dir/src/main.cpp.o: /home/igris/git_projects/File_crawle
 /usr/include/c++/15/bits/locale_facets.h:
 
 /usr/include/c++/15/cstdlib:
-
-/usr/lib/llvm-19/lib/clang/19/include/__stddef_header_macro.h:
 
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
@@ -788,6 +892,8 @@ CMakeFiles/file_crawler.dir/src/main.cpp.o: /home/igris/git_projects/File_crawle
 
 /usr/include/x86_64-linux-gnu/bits/types/time_t.h:
 
+/lib/x86_64-linux-gnu/libm.so:
+
 /usr/include/linux/sched/types.h:
 
 /usr/include/c++/15/bits/nested_exception.h:
@@ -806,11 +912,21 @@ CMakeFiles/file_crawler.dir/src/main.cpp.o: /home/igris/git_projects/File_crawle
 
 /usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
 
-/usr/include/c++/15/bits/cxxabi_init_exception.h:
+/usr/include/c++/15/initializer_list:
+
+/usr/include/errno.h:
+
+/usr/include/c++/15/cstddef:
+
+/usr/include/c++/15/bits/fs_fwd.h:
 
 /usr/include/c++/15/bits/fs_path.h:
 
+/lib/x86_64-linux-gnu/libgcc_s.so.1:
+
 /usr/include/c++/15/bits/shared_ptr.h:
+
+/usr/include/c++/15/bits/erase_if.h:
 
 /usr/include/c++/15/bits/stringfwd.h:
 
@@ -848,7 +964,7 @@ CMakeFiles/file_crawler.dir/src/main.cpp.o: /home/igris/git_projects/File_crawle
 
 /usr/include/c++/15/bits/uses_allocator.h:
 
-/usr/include/x86_64-linux-gnu/c++/15/bits/gthr.h:
+/usr/include/c++/15/bits/node_handle.h:
 
 /usr/include/c++/15/bits/ostream.h:
 
@@ -864,9 +980,11 @@ CMakeFiles/file_crawler.dir/src/main.cpp.o: /home/igris/git_projects/File_crawle
 
 /usr/include/c++/15/type_traits:
 
-/usr/lib/llvm-19/lib/clang/19/include/__stddef_null.h:
+/usr/include/c++/15/bits/shared_ptr_atomic.h:
 
 /usr/include/c++/15/bits/stl_uninitialized.h:
+
+/usr/include/c++/15/bits/stl_multimap.h:
 
 /usr/include/c++/15/bits/shared_ptr_base.h:
 
@@ -884,7 +1002,15 @@ CMakeFiles/file_crawler.dir/src/main.cpp.o: /home/igris/git_projects/File_crawle
 
 /usr/include/c++/15/bits/stl_iterator.h:
 
+/lib/x86_64-linux-gnu/libc.so.6:
+
+/usr/lib/llvm-19/lib/clang/19/include/__stddef_wchar_t.h:
+
+/usr/include/c++/15/memory:
+
 /usr/include/c++/15/vector:
+
+/usr/lib/gcc/x86_64-linux-gnu/15/libgcc_s.so:
 
 /usr/include/c++/15/bits/ptr_traits.h:
 
@@ -896,6 +1022,8 @@ CMakeFiles/file_crawler.dir/src/main.cpp.o: /home/igris/git_projects/File_crawle
 
 /usr/include/c++/15/cwchar:
 
+/usr/include/c++/15/backward/auto_ptr.h:
+
 /usr/include/c++/15/bits/exception_defines.h:
 
 /usr/include/c++/15/bits/stl_heap.h:
@@ -906,13 +1034,25 @@ CMakeFiles/file_crawler.dir/src/main.cpp.o: /home/igris/git_projects/File_crawle
 
 /usr/include/c++/15/ext/atomicity.h:
 
+/usr/include/c++/15/bits/locale_classes.h:
+
+/usr/include/linux/stddef.h:
+
+/usr/include/c++/15/bits/stl_map.h:
+
 /usr/include/c++/15/bits/stl_bvector.h:
 
 /usr/include/c++/15/bits/stl_pair.h:
 
 /usr/include/c++/15/cctype:
 
+/usr/include/c++/15/bits/stl_raw_storage_iter.h:
+
 /usr/include/c++/15/bits/stl_tempbuf.h:
+
+/usr/lib/llvm-19/lib/clang/19/include/stdarg.h:
+
+/usr/include/c++/15/bits/stl_tree.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/error_t.h:
 
@@ -928,7 +1068,7 @@ CMakeFiles/file_crawler.dir/src/main.cpp.o: /home/igris/git_projects/File_crawle
 
 /usr/include/c++/15/bits/streambuf.tcc:
 
-/usr/include/x86_64-linux-gnu/c++/15/bits/messages_members.h:
+/lib/x86_64-linux-gnu/libc.so:
 
 /usr/include/c++/15/bits/string_view.tcc:
 
@@ -982,6 +1122,8 @@ CMakeFiles/file_crawler.dir/src/main.cpp.o: /home/igris/git_projects/File_crawle
 
 /usr/include/c++/15/new:
 
+/usr/include/strings.h:
+
 /usr/include/c++/15/bits/exception.h:
 
 /usr/include/c++/15/ostream:
@@ -991,6 +1133,8 @@ CMakeFiles/file_crawler.dir/src/main.cpp.o: /home/igris/git_projects/File_crawle
 /usr/include/wchar.h:
 
 /usr/include/c++/15/sstream:
+
+/lib/x86_64-linux-gnu/Scrt1.o:
 
 /usr/include/c++/15/ratio:
 
@@ -1010,6 +1154,8 @@ CMakeFiles/file_crawler.dir/src/main.cpp.o: /home/igris/git_projects/File_crawle
 
 /usr/include/x86_64-linux-gnu/c++/15/bits/c++config.h:
 
+/usr/include/c++/15/pstl/glue_memory_defs.h:
+
 /usr/include/x86_64-linux-gnu/c++/15/bits/c++locale.h:
 
 /usr/include/x86_64-linux-gnu/bits/timesize.h:
@@ -1019,21 +1165,3 @@ CMakeFiles/file_crawler.dir/src/main.cpp.o: /home/igris/git_projects/File_crawle
 /usr/include/x86_64-linux-gnu/c++/15/bits/cpu_defines.h:
 
 /usr/include/x86_64-linux-gnu/c++/15/bits/error_constants.h:
-
-/usr/lib/llvm-19/lib/clang/19/include/__stdarg___gnuc_va_list.h:
-
-/usr/include/x86_64-linux-gnu/gnu/stubs.h:
-
-/usr/lib/llvm-19/lib/clang/19/include/__stddef_max_align_t.h:
-
-/usr/include/c++/15/cstdio:
-
-/usr/lib/llvm-19/lib/clang/19/include/__stddef_nullptr_t.h:
-
-/usr/include/stdc-predef.h:
-
-/usr/lib/llvm-19/lib/clang/19/include/__stddef_ptrdiff_t.h:
-
-/usr/lib/llvm-19/lib/clang/19/include/__stddef_wchar_t.h:
-
-/usr/lib/llvm-19/lib/clang/19/include/stdarg.h:
