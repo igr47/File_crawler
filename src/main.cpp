@@ -40,7 +40,7 @@ int main(int argc, char* argv[]) {
 
     try {
         if (useColorCycling) {
-            std::cerr << "Using color cycling mode (each directory branch gets a unique color)" << std::endl;
+            //std::cerr << "Using color cycling mode (each directory branch gets a unique color)" << std::endl;
             printer.printStructureWithColorCycling(startPath);
         } else {
             printer.printStructure(startPath);
