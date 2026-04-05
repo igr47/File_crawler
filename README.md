@@ -75,12 +75,12 @@ make
 ```
 
 ### Command Line Options
---------------------------------------------------------------------------------------
-|Option  |	Description                                                               |
---------------------------------------------------------------------------------------
-|-cc	 |  Enable color cycling mode - each directory branch gets a unique color     |
-|no flag |	Normal mode - consistent colors (cyan for dirs, blue for files)           |
----------------------------------------------------------------------------------------
+    --------------------------------------------------------------------------------------
+    |Option  |	Description                                                               |
+    --------------------------------------------------------------------------------------
+    |-cc	 |  Enable color cycling mode - each directory branch gets a unique color     |
+    |no flag |	Normal mode - consistent colors (cyan for dirs, blue for files)           |
+    ---------------------------------------------------------------------------------------
 
 ### Examples
 ### Normal Mode Output:
@@ -100,18 +100,18 @@ make
 
 ### Color Cycling Mode Output (conceptual):
 
-Documents-|                    (Color 1: Red)
-├─── projects-|                (Color 2: Green)
-│   ├─── include-|             (Color 3: Blue)
-│   │   ├─── utils.h           (Inherits Blue)
-│   │   └─── math.h            (Inherits Blue)
-│   ├─── src-|                 (Color 4: Purple)
-│   │   ├─── main.cpp          (Inherits Purple)
-│   │   └─── utils.cpp         (Inherits Purple)
-│   └─── README.md             (Inherits Green)
-└─── photos-|                  (Color 5: Orange)
-    ├─── vacation.jpg          (Inherits Orange)
-    └─── family.png            (inherits Orange)
+    Documents-|                    (Color 1: Red)
+    ├─── projects-|                (Color 2: Green)
+    │   ├─── include-|             (Color 3: Blue)
+    │   │   ├─── utils.h           (Inherits Blue)
+    │   │   └─── math.h            (Inherits Blue)
+    │   ├─── src-|                 (Color 4: Purple)
+    │   │   ├─── main.cpp          (Inherits Purple)
+    │   │   └─── utils.cpp         (Inherits Purple)
+    │   └─── README.md             (Inherits Green)
+    └─── photos-|                  (Color 5: Orange)
+        ├─── vacation.jpg          (Inherits Orange)
+        └─── family.png            (inherits Orange)
 
 ### What to Expect 📋
 ### Normal Mode
@@ -219,14 +219,14 @@ Solution: FileCrawler will show a filesystem error but continue. Run with approp
 ### Development 🛠️
 ### Project Structure
 
-filecrawler/
-├── CMakeLists.txt          # CMake build configuration
-├── include/
-│   └── crawler.h          # Header file with class definitions
-├── src/
-│   ├── crawler.cpp        # DirectoryTreePrinter implementation
-│   └── main.cpp           # Main entry point and argument parsing
-└── README.md              # This file
+    filecrawler/
+    ├── CMakeLists.txt          # CMake build configuration
+    ├── include/
+    │   └── crawler.h          # Header file with class definitions
+    ├── src/
+    │   ├── crawler.cpp        # DirectoryTreePrinter implementation
+    │   └── main.cpp           # Main entry point and argument parsing
+    └── README.md              # This file
 Building for Development
 bash
 # Debug build with symbols
