@@ -85,18 +85,18 @@ make
 ### Examples
 ### Normal Mode Output:
 
-Documents-|
-├─── projects-|
-│   ├─── include-|
-│   │   ├─── utils.h
-│   │   └─── math.h
-│   ├─── src-|
-│   │   ├─── main.cpp
-│   │   └─── utils.cpp
-│   └─── README.md
-└─── photos-|
-    ├─── vacation.jpg
-    └─── family.png
+    Documents-|
+    ├─── projects-|
+    │   ├─── include-|
+    │   │   ├─── utils.h
+    │   │   └─── math.h
+    │   ├─── src-|
+    │   │   ├─── main.cpp
+    │   │   └─── utils.cpp
+    │   └─── README.md
+    └─── photos-|
+        ├─── vacation.jpg
+        └─── family.png
 
 ### Color Cycling Mode Output (conceptual):
 
