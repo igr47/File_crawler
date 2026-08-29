@@ -11,6 +11,8 @@
 
 namespace fs = std::filesystem;
 
+// Testing
+
 // ANSI color codes
 namespace color {
     const std::string reset = "\033[0m";
